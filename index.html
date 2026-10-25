@@ -20,7 +20,14 @@ body{background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif
 .email .eyebrow{display:inline-block;background:var(--gold);color:#1b1b1b;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:40px}
 .email h1{font-size:30px;line-height:1.15;color:var(--navy);margin:16px 0 18px;font-weight:700;text-wrap:balance}
 .email p{font-size:16px;line-height:1.55;margin:0 0 16px}
-.email p.stat{background:#fff4e0;border:2px solid var(--orange);border-radius:10px;padding:14px 16px;font-size:16px;text-align:center}
+.email .stat{background:#fff4e0;border:2px solid var(--orange);border-radius:10px;padding:16px 18px 14px;margin:0 0 16px;text-align:center}
+.email .stat p{margin:0}
+.email .stat-top{font-size:17px;margin:0 0 12px!important}
+.email .stat-legend{font-size:13px;margin:10px 0 0!important}
+.email .stat .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.email .stat .sw1{background:#FFA001}
+.email .stat .sw2{background:#0a2460}
+.email .stat-note{font-size:14px;color:#333;margin:8px 0 0!important}
 .email .cta{text-align:center;margin:26px 0 10px}
 .email a.btn{display:inline-block;background:var(--orange);color:#1b1b1b;font-weight:700;font-size:18px;letter-spacing:.05em;text-decoration:none;padding:16px 40px;border-radius:50px}
 .email .alt{text-align:center;font-size:14px;margin:0 0 6px}
@@ -44,7 +51,18 @@ body{background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif
       <p>Dear Obodo Community,</p>
       <p>Your gift to The Obodo Collective will be matched dollar for dollar, up to <b>$25,000</b>—but only through <b>Tuesday, October 27, at 6 PM</b> Las Vegas time!</p>
       <p>Your $50 becomes $100. Your $100 becomes $200. Every donation brings us closer to our $100,000 goal to strengthen food security in Las Vegas’ Historic Westside.</p>
-      <p class="stat"><b>$19,782</b> raised so far toward our <b>$100,000</b> goal. Every gift has been doubled by Big Green.</p>
+      <div class="stat">
+        <p class="stat-top"><b>$19,782</b> raised of our <b>$100,000</b> goal</p>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse"><tr>
+          <td width="50%" align="right" style="font:700 11px/1 Helvetica,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#0a2460;padding:0 6px 4px 0;border-right:2px solid #FFC933">$50K match goal</td>
+          <td width="50%"></td></tr></table>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:separate;background:#e9ecf1;border-radius:8px;overflow:hidden"><tr>
+          <td width="9.9%" height="16" style="background:#FFA001;height:16px;font-size:0;line-height:0">&nbsp;</td>
+          <td width="9.9%" height="16" style="background:#0a2460;height:16px;font-size:0;line-height:0">&nbsp;</td>
+          <td height="16" style="height:16px;font-size:0;line-height:0">&nbsp;</td></tr></table>
+        <p class="stat-legend"><span class="sw sw1"></span>Your gifts <b>$9,891</b> &nbsp;&nbsp; <span class="sw sw2"></span>Big Green match <b>$9,891</b></p>
+        <p class="stat-note">Every gift is doubled until Big Green's <b>$25,000</b> match is used up.</p>
+      </div>
       <p>Your support helps us grow fresh food, stock our Greengrocer, and offer gardening and cooking classes that nourish families and build community.</p>
       <p>Give today to double your impact!</p>
       <div class="cta"><a class="btn" href="https://give.biggreen.org/las16">DOUBLE MY GIFT</a></div>
