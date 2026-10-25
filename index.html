@@ -3,11 +3,9 @@
 <title>Double Your Impact Email</title>
 <style>body{margin:0}img{max-width:100%}
 /* Layout: an inbox strip (subject + preview text) above a 600px email canvas on a quiet ground; the email itself stays white, as it will in Mailchimp. */
-:root{--bg:#eef0f4;--fg:#1b1b1b;--muted:#5d6472;--chrome:#ffffff;--line:#d9dde5;--navy:#0a2460;--gold:#FFC933;--orange:#FFA001;--ink:#1b1b1b;--paper:#ffffff;--paper2:#f6f7f9}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15181e;--fg:#e8eaee;--muted:#9aa2b1;--chrome:#1f232b;--line:#333a46;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#15181e;--fg:#e8eaee;--muted:#9aa2b1;--chrome:#1f232b;--line:#333a46;color-scheme:dark}
+:root{--bg:#f3f4f6;--fg:#1b1b1b;--muted:#5d6472;--chrome:#ffffff;--line:#d9dde5;--navy:#0a2460;--gold:#FFC933;--orange:#FFA001;--ink:#1b1b1b;--paper:#ffffff;--paper2:#f6f7f9}
 body{background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.wrap{max-width:640px;margin:0 auto;display:grid;gap:18px}
+.wrap{max-width:640px;margin:0 auto}
 .note{font-size:13px;color:var(--muted);line-height:1.5}
 .note b{color:var(--fg)}
 .inbox{background:var(--chrome);border:1px solid var(--line);border-radius:8px;padding:14px 18px;display:grid;gap:4px}
@@ -33,17 +31,10 @@ body{background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif
 .email .sig{font-size:16px;line-height:1.5;margin:0}
 .email .foot{background:var(--paper2);border-top:1px solid #e3e6ec;padding:18px 40px;font-size:12px;color:#666;line-height:1.6;text-align:center}
 .email .foot a{color:#666}
-.ph{background:#fff3c4;border-bottom:2px solid #e0b000;padding:0 3px;color:#1b1b1b}
+.ph{}
 @media (max-width:520px){.email .inner{padding:24px 18px 22px}.email .foot{padding:16px 18px}.email h1{font-size:26px}.email a.btn{display:block;padding:15px 16px;font-size:16px}}
 </style></head><body>
 <div class="wrap">
-  <p class="note"><b>Email mockup for approval.</b> Built from Tameka's text with three additions: a progress line, a Big Green note, and the subject and preview text. Yellow marks are the live numbers to refresh right before sending. Colors and button match the homepage hero.</p>
-  <div class="inbox">
-    <span class="k">Inbox view</span>
-    <span class="from">Tameka Henry, The Obodo Collective &lt;tameka@obodocollective.org&gt;</span>
-    <span class="subj">Double your impact: every gift matched through Tuesday</span>
-    <span class="pre">Up to $25,000 in matching funds, but only until 6 PM Tuesday.</span>
-  </div>
   <div class="email">
     <div class="top"></div>
     <div class="inner">
@@ -69,6 +60,5 @@ body{background:var(--bg);color:var(--fg);font-family:Helvetica,Arial,sans-serif
       You are receiving this because you joined our mailing list. <a href="#">Unsubscribe</a> · <a href="#">Update preferences</a>
     </div>
   </div>
-  <p class="note">Mailchimp adds the footer and unsubscribe link itself. Fonts are Helvetica/Arial because Gmail and Outlook don't load custom fonts in email.</p>
 </div>
 </body></html>
